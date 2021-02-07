@@ -10,7 +10,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
-#include <lua.h>
+#include <lua5.1/lua.h>
 #include "compat.h"
 
 /****************************************************************************/

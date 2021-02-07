@@ -3,6 +3,9 @@
         "string.h": "c",
         "fuse.h": "c",
         "xattr.h": "c",
-        "compat.h": "c"
+        "compat.h": "c",
+        "posix_structs.h": "c",
+        "lua.h": "c",
+        "lauxlib.h": "c"
     }
 }

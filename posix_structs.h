@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <errno.h>
-#include <lua.h>
+#include <lua5.1/lua.h>
 
 void lua__push__stat_mode(lua_State* L, mode_t m);
 mode_t lua__to__stat_mode(lua_State* L, int index);

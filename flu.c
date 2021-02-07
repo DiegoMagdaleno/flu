@@ -1,10 +1,8 @@
 #ifndef FUSE_USE_VERSION
 #error FUSE_USE_VERSION is not defined.
-#endif
-#if FUSE_USE_VERSION > 26
+#elif FUSE_USE_VERSION > 26
 #error Versions newer than FUSE 2.6 (26) are not yet supported (FUSE 2.7.x and 2.8.x use APIv26).
-#endif
-#if FUSE_USE_VERSION < 25
+#elif FUSE_USE_VERSION < 25
 #error Versions older than FUSE 2.5 (25) are not yet supported.
 #endif
 	
@@ -16,8 +14,8 @@
 #include <string.h>
 #include <fuse.h>
 #include <sys/xattr.h>
-#include <lua.h>
-#include <lauxlib.h>
+#include <lua5.1/lua.h>
+#include <lua5.1/lauxlib.h>
 
 #include "compat.h"
 #include "posix_structs.h"
