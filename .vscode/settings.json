@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "fuse.h": "c",
+        "xattr.h": "c",
+        "compat.h": "c"
+    }
+}

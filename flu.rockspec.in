@@ -6,7 +6,7 @@ source = {
 }
 description = {
 	summary = "Filesystems in Lua Userspace.",
-	homepage = 'http://piratery.net/flu/',
+	homepage = 'https://github.com/DiegoMagdaleno/flu/',
 	license = 'MIT',
 }
 external_dependencies = {
@@ -14,7 +14,7 @@ external_dependencies = {
 		library = 'fuse',
 	},
 	ATTR = {
-		header = 'sys/xattr.h',
+		header = 'xattr/xattr.h',
 	},
 }
 dependencies = {
