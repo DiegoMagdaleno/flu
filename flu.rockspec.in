@@ -1,8 +1,8 @@
 package = 'Flu'
 version = '${version}'
 source = {
-	url = '${url}',
-	dir = '${dir}',
+	url = "git://github.com/DiegoMagdaleno/flu.git",
+	tag = "main"
 }
 description = {
 	summary = "Filesystems in Lua Userspace.",
